@@ -108,4 +108,4 @@ Content-Type: application/json
 
 ## Mock Data
 
-The backend includes sample bookings in `mockedData` for testing purposes, combined with live ServiceM
+The backend includes sample bookings in `mockedData` for testing purposes, combined with live ServiceM8API Fetching
