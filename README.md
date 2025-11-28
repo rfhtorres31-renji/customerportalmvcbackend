@@ -39,8 +39,8 @@ This is a simple backend API for managing bookings and messages. It provides end
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone https://github.com/rfhtorres31-renji/customerportalmvcbackend
+cd customerportalmvcbackend
 ```
 
 2. Install dependencies:
@@ -48,29 +48,16 @@ cd <repository-folder>
 ```bash
 npm install
 ```
-
-3. Create a `.env` file in the root directory:
-
-```env
-SERVICEM8_API_KEY=your_servicem8_api_key_here
-```
-
-4. Start the server:
+3. Start the server:
 
 ```bash
-npm run dev
-# or
-node index.js
+npm server.js
 ```
-
-Server will run at `http://localhost:3304`.
-
 ---
 
 ## Environment Variables
 
-- `SERVICEM8_API_KEY` – Your ServiceM8 API key for fetching live booking data.
-
+- `SERVICEM8_API_KEY` – smk-7cb94a-79b61bf845b0d3d8-64e148cd927f8ece
 ---
 
 ## API Endpoints
